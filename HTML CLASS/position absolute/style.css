@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    height: fit-content;
+    width: auto;
+    padding: 0;
+    background-color: gray;
+}
+main div{
+    padding: 40px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+section{
+    height: 100vh;
+    position: relative;
+    padding: 100px;
+}
+.box1{
+    padding: 75px;
+    width: auto;
+    background-color: blue;
+    position: absolute;
+    z-index: 10;
+    left: 200px;
+    top: 200px;
+}
+
+.box2{
+    padding: 75px;
+    width: auto;
+    background-color: green;
+    position: absolute;
+    z-index: 20;
+    left: 300px;
+    top: 300px;
+}
+
+.box3{
+    padding: 75px;
+    width: auto;
+    background-color: palevioletred;
+    position: absolute;
+    z-index: 30;
+    left: 400px;
+    top: 400px;
+}
+
+.box4{
+    padding: 75px;
+    width: fit-content;
+    background-color: yellow;
+    position: absolute;
+    z-index: 40;
+    left: 500px;
+    top: 500px;
+}
+
+.box5{
+    padding: 75px;
+    width: fit-content;
+    background-color: orange;
+    position: absolute;
+    z-index: 50;
+    left: 600px;
+    top: 600px;
+}

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    background-color: blue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 30px;
+}
+ul{
+    display: flex;
+    gap: 4rem;
+    border-color: white;
+    
+}
+
+header{
+    height: 20vh;
+}
+nav button{
+    background: blue;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 20px;
+}
+.heroTextBox{
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 30px;
+}
+.search{
+    background: white;
+    padding: 15px;
+    margin: 30px;
+    max-width: 800px;
+    display: flex;
+    gap: 10px;
+}
+.search input {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+.search select{
+    padding: 12px;
+    border: 1px solid#ddd;
+}
+.search button{
+    background: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 20px;
+}

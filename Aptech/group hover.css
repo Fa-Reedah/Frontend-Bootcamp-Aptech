@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    width: 100vw;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    background-color: #80808028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 0 10px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+}
+#invisible{
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: none;
+    position: absolute;
+    right: 50px;
+}
+.prop:hover #invisible{
+    display: flex;
+}
+main{
+    height: 80vh;
+    background-color: gray;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+main section{
+    width: 70%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 400px;
+    /* flex-wrap: wrap; */
+    overflow: scroll;
+
+}
+.demoBox{
+    padding: 80px;
+    width: fit-content;
+    background-color: red;
+
+}

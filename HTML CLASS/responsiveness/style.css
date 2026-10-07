@@ -1,0 +1,120 @@
+/* div{
+    padding: 100px;
+    background-color: red;
+    width: fit-content;
+}
+
+@media (max-width: 1023px) {
+    div{
+        background-color: blue;
+    }
+}
+@media (max-width: 767xpx) {
+    div{
+        background-color:  green;
+    }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: system-ui, sans-serif;
+    position: fixed;
+}
+
+nav{
+    width: auto;
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px; 
+}
+
+ul{
+    display: flex;
+    justify-content: left;
+    gap: 32px;
+    align-items:last baseline;
+    height: 100%;
+    width: auto;
+    color: white;
+    padding-bottom: 30px;
+}
+button{
+    background-color: #181818;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7px 15px;
+    border-radius: 15px;
+}
+
+.hero{
+    width: auto;
+    height:60vh;
+    background-color: #181818;
+    padding: 10px 30px;
+    border:#181818;
+    border-radius:0px 20px 0 7px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-nav{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+.showall{
+    font-size: 16px;
+    font-weight: 650;
+    align-self: last baseline;
+    color: rgb(152, 149, 149);
+    padding-right: 60px;
+}
+.carousels{
+    /* background-color: red; */
+    width: 120%;
+    height: 53vh;
+    display: flex;
+    gap: 20px;
+}
+
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box{
+    width: 26.5vh;
+    height: 26.5vh;
+    /* background-color: blue; */
+    border-radius: 10px;
+    padding: 1px;
+}
+.text{
+    color: rgb(152, 149, 149);
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.hero-nav-2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}

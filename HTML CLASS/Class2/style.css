@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.hh{
+    /* height:  500px;
+    width: 50px; */ 
+    background-color: aqua;
+}
+
+div{
+    height:  50px;
+    width: 50px;
+    background-color: aqua;
+}
